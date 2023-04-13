@@ -30,5 +30,11 @@ while count<=26:
     if count%4==0:
         print(count)
     count+=1
-    
+ 
+for i in ['red','blue']:
+     if i=='yellow':
+         print("it is yellow")
+         break
+else:
+    print("yellow is not in the list")
         
