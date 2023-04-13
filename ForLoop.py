@@ -31,10 +31,14 @@ while count<=26:
         print(count)
     count+=1
  
+#ForElse 
 for i in ['red','blue']:
      if i=='yellow':
          print("it is yellow")
          break
 else:
     print("yellow is not in the list")
-        
+  
+#range
+for i in range(10):
+    print(i)
