@@ -49,5 +49,14 @@ uppercase_colors=[]
 for i in colors:
     uppercase_colors.append(i.upper())
 print(uppercase_colors)    
+
+#Favorite colors   
+colors=['red','yellow','blue','green']
+fav_colors=[]
+for i in colors:
+    if i in ['yellow','green']:
+        fav_colors.append(i.upper())
+print(fav_colors)        
+
     
         
