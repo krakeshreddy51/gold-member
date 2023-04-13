@@ -10,3 +10,11 @@ if False:
     print("It is True")
 else:
     print("it is False")
+    
+    
+name = input("Enter your name: ")   
+if len(name) >=6:
+    print("Youe name is 6 or more chars")
+    
+elif len(name)==5:
+    print("Your name is 5 chars")
