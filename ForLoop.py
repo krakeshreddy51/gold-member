@@ -42,3 +42,12 @@ else:
 #range
 for i in range(10):
     print(i)
+ 
+#uppercase colors    
+colors=['red','yellow','blue','green']
+uppercase_colors=[]
+for i in colors:
+    uppercase_colors.append(i.upper())
+print(uppercase_colors)    
+    
+        
