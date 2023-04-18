@@ -1,3 +1,4 @@
+#Ref:https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb/client/scan.html
 import boto3
 
 client = boto3.client('dynamodb')
